@@ -1,6 +1,6 @@
 function DeveloperPage(){
     return (
-      <h1>The Developer Page</h1>
+      <h1>Raniya</h1>
     )
 }
 export default DeveloperPage;
