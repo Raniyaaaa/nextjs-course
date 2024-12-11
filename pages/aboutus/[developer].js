@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 function DeveloperPage() {
   const router = useRouter();
-  const { developer: id } = router.query; // Destructure the 'developer' param from the query
+  const { developer: id } = router.query;
 
   const details = [
     { id: 1, name: 'Yash', role: 'Senior Developer' },
